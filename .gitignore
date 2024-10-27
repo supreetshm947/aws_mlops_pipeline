@@ -1,6 +1,10 @@
 .idea
 .venv
 tmp*
+.terraform*
+terraform*
 __pycache__
-
+test.csv
+train.csv
+validation.csv
 cache
