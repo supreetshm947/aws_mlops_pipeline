@@ -1,0 +1,7 @@
+Setup Lambda function with required role.
+Add permission to access the sagemaker endpoint in the role.
+Add inference_lambda script in lambda code body.
+Add sagemaker endpoint as Environment variable in lambda.
+Create an API gateway for REST.
+Create Resource within the gateway.
+Within resource add POST method with above created lambda.
